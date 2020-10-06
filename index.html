@@ -6,7 +6,6 @@
     <title>Elmehdi Rhindi portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
@@ -14,7 +13,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="./img/devjane.png" alt="">
+            <img src="./img/logo.png" alt="">
         </div>
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
@@ -64,7 +63,7 @@
                     Phasellus vehicula ligula nec dui finibus sodales.</p>
             </div> <!-- / service -->
         </div> <!-- / services -->
-        <a href="#work" class="btn">My work</a>
+        <a href="#work" class="btn">see my work</a>
     </section>
 
     <!-- about me -->
@@ -72,15 +71,22 @@
         <h2 class="section__title section__title--about">Who I am</h2>
         <p class="section__subtitle section__subtitle--about">Designer & full stack developer based in France</p>
         <div class="about-me__body">
-            <p></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Praesent lacinia viverra tellus ac ultricies. 
+                Praesent maximus ligula accumsan quam vestibulum lacinia. 
+                Phasellus vehicula ligula nec dui finibus sodales.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Praesent lacinia viverra tellus ac ultricies. 
+                Praesent maximus ligula accumsan quam vestibulum lacinia. 
+                Phasellus vehicula ligula nec dui finibus sodales.</p>
         </div>
-        <img src="./img/dev-jane-02.jpg" alt="Jane leaning againsta bus">
+        <img src="./img/dev-jane-02.jpg" alt="Jane leaning againsta bus" class="about-me__img">
     </section>
 
     <!-- my work -->
     <section class="my-work" id="work">
-        <h2 class="section__title">My work</h2>
-        <p class="section__subtitle"></p>
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of projects I made</p>
         <div class="portfolio">
             <!-- portfolio 1-->
             <a href="#" class="portfolio__item">
@@ -129,11 +135,28 @@
     <footer class="footer">
         <a href="mailto:g6handi@gmail.com" class="footer__link">g6handi@gmail.com</a>
         <ul class="social-list">
-            <li class="social-list__item"><a href="https://github.com" class="social-list__link">a</a></li>
-            <li class="social-list__item"><a href="https://github.com" class="social-list__link">z</a></li>
-            <li class="social-list__item"><a href="https://github.com" class="social-list__link">e</a></li>
-            <li class="social-list__item"><a href="https://github.com" class="social-list__link">r</a></li>
+            <li class="social-list__item">
+                <a href="https://github.com/encetroc" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://twitter.com/g6handi" class="social-list__link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://stackoverflow.com/users/6518546/elmehdi" class="social-list__link">
+                    <i class="fab fa-stack-overflow"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.behance.net/elmehdirhindi" class="social-list__link">
+                    <i class="fab fa-behance"></i>
+                </a>
+            </li>
         </ul>
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>
