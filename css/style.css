@@ -14,7 +14,7 @@ html {
     --ff-primary: 'Source Sans Pro', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
 
-    --fx-reg: 300;
+    --fw-reg: 300;
     --fw-bold: 900;
 
     --clr-light: #fff;
@@ -104,7 +104,7 @@ h3 { font-size: var(--fs-h3); }
 }
 
 .section__title--intro {
-    font-weight: var(--fx-reg);
+    font-weight: var(--fw-reg);
 }
 
 .section__title--intro strong {
